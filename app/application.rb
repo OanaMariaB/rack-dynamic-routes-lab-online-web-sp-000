@@ -11,10 +11,10 @@ class Application
     elsif
       resp.write "Route not found"
       resp.status = 404
-    elsif 
-      
+    elsif
+
     end
-    
+
 
     resp.finish
   end
